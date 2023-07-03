@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+ 
+
+    <link rel="stylesheet" href="/style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/style/owl.carousel.min.css">
+
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body class="corpo-pagina">
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="container-navegacao">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- CORPO PRINCIPAL -->
+    <main class="conteudo-principal">
+        <div class="filme-principal">
+            <div class="container-filme">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode impedir um político sem escrúpulos Frank Underwood de conquistar Washington</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class=" botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+   
+    <div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="/img/cavaleiros-do-zodiaco.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/indiana-jones.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/mercenarios.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/nimona.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/pequena-seria.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/shazam.jpg" alt="">
+            </div>
+           
+        </div>
+    </div>
+    
+
+    <!-- FONTE AWESOME -->
+    <script src="https://kit.fontawesome.com/a7ce69a4eb.js" crossorigin="anonymous"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel()
+
+            });
+    </script>
+
+
+</body>
+</html>
